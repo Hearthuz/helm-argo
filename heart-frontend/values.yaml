@@ -4,6 +4,6 @@ heart:
   replicas: 1
   host: heart-final-lab.argo.website
   ingress:
-    ingressClassName: heart
+    ingressClassName: nginx
   service:
     type: ClusterIP
