@@ -1,6 +1,6 @@
 heart:
   namespace: default
-  image: hearthuz/summer-frontend:latest
+  image: hearthuz/summer-frontend:1.0
   replicas: 1
   host: heart-final-lab.argo.website
   path: /apps
