@@ -3,6 +3,7 @@ heart:
   image: hearthuz/summer-frontend:latest
   replicas: 1
   host: heart-final-lab.argo.website
+  path: /apps
   ingress:
     ingressClassName: nginx
   service:
