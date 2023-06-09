@@ -8,7 +8,7 @@ metadata:
 spec:
   type: {{ .Values.heart.service.type }}
   selector:
-    app: nginx
+    app: heart
   ports:
     - protocol: TCP
       port: 80

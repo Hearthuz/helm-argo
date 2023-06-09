@@ -8,13 +8,13 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: heart
       app.kubernetes.io/name: {{ .Release.Name }}
   replicas: {{ .Values.heart.replicas }}
   template:
     metadata:
       labels:
-        app: nginx
+        app: heart
         app.kubernetes.io/name: {{ .Release.Name }}
     spec:
       containers:
