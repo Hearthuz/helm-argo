@@ -2,7 +2,7 @@ heart:
   namespace: default
   image: hearthuz/summer-frontend:latest
   replicas: 1
-  host: heart-test.argo.website
+  host: heart-final-lab.argo.website
   ingress:
     ingressClassName: heart
   service:
