@@ -1,9 +1,0 @@
-heart:
-  namespace: default
-  image: hearthuz/summer-frontend:latest
-  replicas: 1
-  host: heart.argo.website
-  ingress:
-    ingressClassName: heart
-  service:
-    type: ClusterIP
