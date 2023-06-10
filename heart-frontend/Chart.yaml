@@ -1,7 +1,7 @@
 # helm upgrade --install nginx-test -f values.yaml .
 apiVersion: v1
 description: Nginx Helm Chart
-name: heart-final-lab
+name: Nginx
 version: 1.0.0
 appVersion: 1.0.0
 maintainers:
