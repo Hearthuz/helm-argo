@@ -2,8 +2,7 @@ heart:
   namespace: default
   image: nginx:1.23.0
   replicas: 1
-  host: heart-final-lab.argo.website
-  path: /apps
+  host: heart-final-lab.arpo.website
   ingress:
     ingressClassName: nginx
   service:
