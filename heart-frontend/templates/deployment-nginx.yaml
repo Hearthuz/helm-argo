@@ -8,17 +8,17 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: heart-final-lab
       app.kubernetes.io/name: {{ .Release.Name }}
   replicas: {{ .Values.heart.replicas }}
   template:
     metadata:
       labels:
-        app: nginx
+        app: heart-final-lab
         app.kubernetes.io/name: {{ .Release.Name }}
     spec:
       containers:
-      - name: nginx
+      - name: heart-final-lab
         image: {{ .Values.heart.image }}
         ports:
         - containerPort: 80
