@@ -1,6 +1,6 @@
 heart:
   namespace: default
-  image: hearthuz/summer-frontend:latest
+  image:  nginx:1.23.0
   replicas: 1
   host: heart-final-lab.arpo.website
   ingress:
